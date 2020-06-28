@@ -1,4 +1,4 @@
-# Pixit
+# 🌄 Pixit
 
 > AWS Hackdays Online 2020
 
