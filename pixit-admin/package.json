@@ -1,9 +1,9 @@
 {
-    "name": "@creative-tim-official/argon-dashboard-free",
+    "name": "@Pixit-official/argon-dashboard-free",
     "version": "1.2.0",
     "description": "A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.",
     "main": "gulpfile.js",
-    "author": "Creative Tim",
+    "author": "Pixit",
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
 },

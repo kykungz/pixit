@@ -5,11 +5,11 @@
 * Argon Dashboard - v1.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-dashboard
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.Pixit.com/product/argon-dashboard
+* Copyright 2020 Pixit (https://www.Pixit.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
 
-* Coded by www.creative-tim.com
+* Coded by www.Pixit.com
 
 =========================================================
 
@@ -837,7 +837,8 @@ var BarsChart = (function() {
 
 	// Init chart
 	function initChart($chart) {
-
+		setTimeout(() => {
+			
 		// Create chart
 		var ordersChart = new Chart($chart, {
 			type: 'bar',
@@ -852,6 +853,8 @@ var BarsChart = (function() {
 
 		// Save to jQuery object
 		$chart.data('chart', ordersChart);
+
+		}, 1500);
 	}
 
 
@@ -878,10 +881,12 @@ var SalesChart = (function() {
   // Methods
 
   function init($chart) {
-
+	setTimeout(() => {
+		
     var salesChart = new Chart($chart, {
       type: 'line',
       options: {
+				borderColor: 'red',
         scales: {
           yAxes: [{
             gridLines: {
@@ -919,7 +924,8 @@ var SalesChart = (function() {
         labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         datasets: [{
           label: 'Performance',
-          data: [0, 20, 10, 30, 15, 40, 20, 60, 60]
+          data: [0, 20, 10, 30, 15, 40, 20, 60, 60],
+					borderColor: '#2dce89',
         }]
       }
     });
@@ -927,6 +933,7 @@ var SalesChart = (function() {
     // Save to jQuery object
 
     $chart.data('chart', salesChart);
+	}, 1000);
 
   };
 

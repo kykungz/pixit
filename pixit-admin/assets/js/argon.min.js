@@ -4,11 +4,11 @@
 * Argon Dashboard - v1.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-dashboard
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.Pixit.com/product/argon-dashboard
+* Copyright 2020 Pixit (https://www.Pixit.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
 
-* Coded by www.creative-tim.com
+* Coded by www.Pixit.com
 
 =========================================================
 
