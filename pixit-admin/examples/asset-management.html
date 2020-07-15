@@ -179,8 +179,8 @@
             <script>
               function search() {
                 window.event.preventDefault();
-                console.log('searc');
-                window.location.href = 'search.html';
+                console.log("searc");
+                window.location.href = "search.html";
               }
             </script>
             <form
@@ -601,19 +601,19 @@
                       // }
                       // fetch();
                       fetch(
-                        'https://q6dyblstjh.execute-api.ap-southeast-1.amazonaws.com/default/hack-backend?search=Furniture'
+                        "https://q6dyblstjh.execute-api.ap-southeast-1.amazonaws.com/default/hack-backend"
                       )
                         .then((response) => response.json())
                         .then((data) => {
                           data.data.forEach((element) => {
                             const { name, label, url } = element;
                             document.getElementById(
-                              'mock-list'
+                              "mock-list"
                             ).innerHTML += ` <tr>
                     <th scope="row">
                       <div class="media align-items-center">
                         <a href="#" class="avatar mr-3" style="background: white; height: 80px; width: 150px;">
-                          <img alt="Image placeholder" src="${url}">
+                          <img style="height: 100%; width: auto" alt="Image placeholder" src="${url}">
                         </a>
                       </div>
                     </th>

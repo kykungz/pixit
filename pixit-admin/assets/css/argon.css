@@ -18141,8 +18141,6 @@ a.text-darker:focus
 }
 .avatar img
 {
-    width: 100%;
-
     border-radius: .375rem;
 }
 .avatar + .avatar-content
