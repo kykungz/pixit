@@ -605,7 +605,7 @@
                       )
                         .then((response) => response.json())
                         .then((data) => {
-                          data.data.forEach((element) => {
+                          data.data.reverse().forEach((element) => {
                             const { name, label, url } = element;
                             document.getElementById(
                               "mock-list"
@@ -617,8 +617,8 @@
                         </a>
                       </div>
                     </th>
-                    <td class="budget">
-                      ${label}
+                    <td class="budget" style="display: block; min-width: 300px; white-space: normal; word-break: break-word;">
+                      ${label.split(',').join(', ')}
                     </td>
                     <td>
                       <span class="badge badge-dot mr-4">
